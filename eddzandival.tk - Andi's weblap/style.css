@@ -1,0 +1,129 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  padding-top: 70px!important;
+  background-color: #1c1c1c !important;
+  /* background-color: #1e272e !important; */
+  /* background-color: #dfe4ea !important; */
+}
+
+.infoCard {
+  color: black;
+  /* background: white; */
+
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+  border-style: none;
+  border-color: #ff9300;
+  border-width: 5px;
+  border-radius: .25rem!important;
+  text-align: justify;
+  margin: 5pt;
+  padding: 5pt 10pt
+}
+
+.imageCard {
+  border-radius: .25rem!important;
+  padding-right: 0pt!important;
+  padding-left: 0pt!important;
+  margin: 5pt;
+  max-height:300px;
+}
+
+.gradient {
+  background: rgb(36, 57, 73);
+  background: linear-gradient(313deg, rgba(36, 57, 73, 1) 0%, rgba(81, 127, 164, 1) 100%);
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+  margin-top: 0px;
+  width: fit-content;
+  border-radius: .25rem!important;
+  color: white;
+}
+
+.pgrad{
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  color: black;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+  margin-top: 0px;
+  border-radius: .25rem!important
+}
+
+.date{
+  margin: auto;
+  padding: 0px;
+  background-color: #212121 ;
+  border-radius: .25rem;
+  color: white!important;
+  text-align: center !important;
+  max-width: 200px;
+  display: block;
+  float: none !important;
+  text-decoration: none;
+}
+.date h2{
+  font-size: 20pt!important;
+  color: rgba(255, 255, 255, 0.774)!important;
+  width: max-content;
+  margin:auto;
+}
+.date h1{
+  font-size: 50pt;
+  color: white!important;
+  width: max-content;
+  margin:auto;
+  padding: 3pt;
+}
+.date p{
+  width: 100%;
+  background-color: #424242 !important;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+div.date:hover {
+  background-color: rgba(236, 240, 241,1)
+}
+
+div.date:hover > h1 {
+  color: black !important;
+  background-color: rgba(236, 240, 241,1)
+}
+
+div.date:hover > h2 {
+  color: black !important;
+  background-color: rgba(236, 240, 241,1)
+}
+
+.myImageHolderLeft {
+  text-align: left!important;
+  padding-left: 0px!important;
+  padding-right: 15pt!important;
+}
+
+.btn-primary{
+  border-radius: 24px!important;
+  color: #fff!important;
+  background-color: #3F729B!important;
+  border-style: none!important;
+  margin-left: 5pt;
+  padding-right: 5pt;
+}
+.btn-primary:hover{
+  border-style: none!important;
+}
+
+
+@media (max-width: 768px) {
+  .myImageHolderLeft {
+    text-align: center!important;
+    padding-left: 0px!important;
+    padding-right: 0pt!important;
+  }
+}

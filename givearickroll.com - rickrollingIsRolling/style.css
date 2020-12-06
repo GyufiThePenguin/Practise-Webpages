@@ -1,0 +1,292 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  padding-top: 70px!important;
+  background-color: #222629 !important;
+}
+
+.infoCard {
+  color: black;
+  /* background: white; */
+
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+
+  border-style: none;
+  border-color: #ff9300;
+  border-width: 5px;
+  border-radius: .25rem!important;
+  text-align: justify;
+  margin: 5pt;
+  padding: 5pt 10pt
+}
+/*======== RED Card =======*/
+.redCard{
+  background-color: #222629;
+  color: white;
+  border-style: solid;
+  border-color: rgba(147,0,130,1);
+  border-width: 1.5pt;
+  border-radius: .50rem!important;
+  padding: 0px,0px,0px,0px;
+  text-align: justify;
+  margin-bottom: 30pt;
+}
+.redCardHeader{
+  padding: 15pt;
+}
+.redCardHeader h1{
+  background: -webkit-linear-gradient(324deg, rgba(147,0,130,1) 0%, rgba(228,55,55,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.redCardFooter{
+  background-color: rgba(147,0,130,1);
+  color: #fff;
+  width: 100%;
+  margin: 0px;
+}
+.redButton{
+  border-radius: 24px!important;
+  color: #fff!important;
+  background-image: linear-gradient(159deg, rgba(209,0,185,1) 0%, rgba(254,78,78,1) 78%);
+  border-style: none!important;
+  /* margin-left: 5pt;
+  padding-right: 5pt; */
+}.redButton:hover{ background-position: right center; }
+/*======== Blue Card =======*/
+.blueCard{
+  background-color: #222629;
+  color: white;
+  border-style: solid;
+  border-color: rgba(67,116,180,1);
+  border-width: 1.5pt;
+  border-radius: .50rem!important;
+  padding: 0px,0px,0px,0px;
+  text-align: justify;
+  margin-bottom: 30pt;
+}
+.blueCardHeader{
+  padding: 15pt;
+}
+.blueCardHeader h1{
+  background: -webkit-linear-gradient(159deg, rgba(0,147,144,1) 0%, rgba(125,89,212,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.blueCardFooter{
+  background-color: rgba(67,116,180,1);
+  color: #fff;
+  width: 100%;
+  margin: 0px;
+}
+.blueButton{
+  border-radius: 24px!important;
+  color: #fff!important;
+  background-image: linear-gradient(159deg, rgba(188,160,255,1) 0%, rgba(0,222,217,1) 78%);
+  border-style: none!important;
+  /* margin-left: 5pt;
+  padding-right: 5pt; */
+}.blueButton:hover{ background-position: right center; }
+/*======== White Card =======*/
+.whiteCard{
+  background-color: #222629;
+  color: white;
+  border-style: solid;
+  border-color: rgba(255,250,229,1);
+  border-width: 1.5pt;
+  border-radius: .50rem!important;
+  padding: 0px,0px,0px,0px;
+  text-align: justify;
+  margin-bottom: 30pt;
+}
+.whiteCardHeader{
+  padding: 15pt;
+}
+.whiteCardHeader h1{
+  background: -webkit-linear-gradient(159deg, rgba(252,252,252,1) 0%, rgba(255,250,229,1) 22%, rgba(237,237,237,1) 44%, rgba(252,241,221,1) 69%, rgba(222,217,211,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.whiteCardFooter{
+  background-color: rgba(255,250,229,1);
+  color: #000;
+  width: 100%;
+  margin: 0px;
+}
+.whiteButton{
+  border-radius: 24px!important;
+  color: #000!important;
+  background-image: linear-gradient(159deg, rgba(255,255,255,1) 0%, rgba(255,243,235,1) 78%);
+  border-style: none!important;
+  /* margin-left: 5pt;
+  padding-right: 5pt; */
+}.whiteButton:hover{ background-position: right center; }
+/*======== Grey Card =======*/
+.greyCard{
+  background-color: #222629;
+  color: #81858a;
+  border-style: solid;
+  border-color: #474b4f!important;
+  border-width: 1.5pt;
+  border-radius: .50rem!important;
+  padding: 0px,0px,0px,0px;
+  text-align: justify;
+  margin-bottom: 30pt;
+}
+.greyCardHeader{
+  padding: 15pt;
+}
+.greyCardHeader h1{
+  background: -webkit-linear-gradient(159deg, rgba(200,200,200,1) 0%, rgba(129,133,138,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.greyCardFooter{
+  background-color:#474b4f;
+  color: #fff;
+  width: 100%;
+  margin: 0px;
+}
+.greyButton{
+  border-radius: 24px!important;
+  color: #fff!important;
+  background-image: linear-gradient(159deg, rgba(71,75,79,1) 0%, rgba(71,75,79,1) 100%);
+  border-style: none!important;
+  /* margin-left: 5pt;
+  padding-right: 5pt; */
+}.greyButton:hover{ background-position: right center; }
+/*======== Yellow Card =======*/
+.yellowCard{
+  background-color: #222629;
+  color: white;
+  border-style: solid;
+  border-color: #e58e26;
+  border-width: 1.5pt;
+  border-radius: .50rem!important;
+  padding: 0px,0px,0px,0px;
+  text-align: justify;
+  margin-bottom: 30pt;
+}
+.yellowCardHeader{
+  padding: 15pt;
+}
+.yellowCardHeader h1{
+  background: -webkit-linear-gradient(159deg, rgba(175,99,8,1) 0%, rgba(229,142,38,1) 57%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.yellowCardFooter{
+  background-color: #e58e26;
+  color: #fff;
+  width: 100%;
+  margin: 0px;
+}
+/*======== END =======*/
+
+.imageCard {
+  border-radius: .25rem!important;
+  padding-right: 0pt!important;
+  padding-left: 0pt!important;
+  margin: 5pt;
+  max-height:200px;
+}
+.myImageHolderLeft {
+  text-align: left!important;
+  padding-left: 0px!important;
+  padding-right: 15pt!important;
+}
+
+
+.gradient {
+  background: rgb(36, 57, 73);
+  background: linear-gradient(313deg, rgba(36, 57, 73, 1) 0%, rgba(81, 127, 164, 1) 100%);
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+  margin-top: 0px;
+  width: fit-content;
+  border-radius: .25rem!important;
+  color: white;
+}
+
+.pgrad{
+  background: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+  color: black;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  padding-left: 10pt;
+  padding-right: 10pt;
+  margin-top: 0px;
+  border-radius: .25rem!important
+}
+
+.date{
+  margin: auto;
+  padding: 0px;
+  background-color: #212121 ;
+  border-radius: .25rem;
+  color: white!important;
+  text-align: center !important;
+  max-width: 200px;
+  display: block;
+  float: none !important;
+  text-decoration: none;
+}
+.date h2{
+  font-size: 20pt!important;
+  color: rgba(255, 255, 255, 0.774)!important;
+  width: max-content;
+  margin:auto;
+}
+.date h1{
+  font-size: 50pt;
+  color: white!important;
+  width: max-content;
+  margin:auto;
+  padding: 3pt;
+}
+.date p{
+  width: 100%;
+  background-color: #424242 !important;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none !important;
+}
+
+div.date:hover {
+  background-color: rgba(236, 240, 241,1)
+}
+
+div.date:hover > h1 {
+  color: black !important;
+  background-color: rgba(236, 240, 241,1)
+}
+
+div.date:hover > h2 {
+  color: black !important;
+  background-color: rgba(236, 240, 241,1)
+}
+
+
+
+.btn-primary{
+  border-radius: 24px!important;
+  color: #fff!important;
+  background-color: #3F729B!important;
+  border-style: none!important;
+  margin-left: 5pt;
+  padding-right: 5pt;
+}
+.btn-primary:hover{
+  border-style: none!important;
+}
+
+
+@media (max-width: 768px) {
+  .myImageHolderLeft {
+    text-align: center!important;
+    padding-left: 0px!important;
+    padding-right: 0pt!important;
+  }
+}

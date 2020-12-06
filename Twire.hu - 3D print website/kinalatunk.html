@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/ico" href="./images/icon.png">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <title>3D Nyomtatás</title>
+</head>
+
+<body>
+  <!-- Navbar-->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top rounded">
+    <a class="navbar-brand " href="./index.html">
+      <img src="./images/icon.png" alt="Print" style="width:50px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="navbar-item active">
+          <a class="nav-link" href="./index.html">Twire</a>
+        </li>
+        <li class="navbar-item active">
+          <a class="nav-link" href="./kinalatunk.html">Kínálatunk</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+  <div class="container mt-5">
+    <div class="row">
+      <!-- header -->
+      <div class="col-sm-12 myCard">
+        <h2 class="text-center">Kínálatunk</h1>
+          <p class="text-jutify">A megrendelés előtt fontos tisztában lenni a részletekkel. Itt szemügyre veheted és
+            összeállíthatod a neked legmegfelelőbb nyomtatási beállításokat</p>
+      </div>
+      <!-- header end -->
+
+      <!-- layer height -->
+      <div class="col-sm-12 myCard mt-3">
+        <h2 class="text-left">Layer magasság</h2>
+        <p>A layer magasság pontosan az, aminek hangzik: a nyomtatott rétegek pontos magassága. Ez az érték befolyásolja
+          a nyomtatás idejét, felbontását és simaságát. Az alacsonyabb layer magasság lelassítja a nyomtatást,
+          de a nyomtató több réteget fog letenni egy adott magasságra, ezzel jobb minőséget elérve. A 3D nyomtatásban a
+          layer magasságát mikronban adják meg. 1 mikron 0.001mm-nek felel meg. Választható layer magasságok:
+        </p>
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="mb-0">100 mikron (0.1mm)</p>
+            <img src="./images/layerH/100u.jpg" alt="100u" class="img-fluid mb-3" style="border-radius: 0.5rem;">
+          </div>
+          <div class="col-lg-4">
+            <p class="mb-0">200 mikron (0.2mm)</p>
+            <img src="./images/layerH/200u.jpg" alt="100u" class="img-fluid mb-3" style="border-radius: 0.5rem;">
+          </div>
+          <div class="col-lg-4">
+            <p class="mb-0">300 mikron (0.3mm)</p>
+            <img src="./images/layerH/300u.jpg" alt="100u" class="img-fluid mb-3" style="border-radius: 0.5rem;">
+          </div>
+        </div>
+        <!-- egészen imm-ig -->
+      </div>
+      <!-- layer height end -->
+
+      <!-- materials -->
+      <div class="col-sm-12 myCard">
+        <h2 class="textalign-left">Filamentek és színek</h2>
+        <p>
+          Sokféle filamenttípus létezik, mindegyik más és más tulajdonságokkal. Mi a környezetkímélő tulajdonságai
+          miatt, legfőképpen PLA-t használunk.
+          Amennyiben nem találod a neked megfelelő anyagot, vagy hiányzik egy neked tetsző szín a listáról, írj nekünk
+          az info@twire.hu email
+          címre.
+        </p>
+        <div class="row mb-2">
+          <!-- Pair START -->
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: fehér</p>
+                <img src="./images/colorDice/white-gembird.jpg" alt="color dice" class="img-fluid testCube">
+              </div>
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: szürke</p>
+                <img src="./images/colorDice/grey-ctec.jpg" alt="color dice" class="img-fluid testCube">
+              </div>
+            </div>
+          </div>
+          <!-- Pair END -->
+          <!-- Pair START -->
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: bronz</p>
+                <img src="./images/colorDice/bronze-ctec.jpg" alt="color dice" class="img-fluid testCube">
+              </div>
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: fekete</p>
+                <img src="./images/colorDice/black-gembird.jpg" alt="color dice" class="img-fluid testCube">
+              </div>
+            </div>
+          </div>
+          <!-- Pair END -->
+          <!-- Pair START -->
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: fényes fekete</p>
+                <img src="./images/colorDice/black-ctec.jpg" alt="color dice" class="img-fluid testCube">
+              </div>
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: piros</p>
+                <img src="./images/colorDice/red.jpg" alt="color dice" class="img-fluid testCube">
+              </div>
+            </div>
+          </div>
+          <!-- Pair END -->
+        </div>
+        <div class="row mb-2">
+          <!-- Pair START -->
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: kék</p>
+                <img src="./images/colorDice/blue-gembird.jpg" alt="color dice" class="img-fluid testCube">
+              </div>
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: ezüst</p>
+                <img src="./images/colorDice/notAvailable.png" alt="color dice" class="img-fluid testCube">
+              </div>
+            </div>
+          </div>
+          <!-- Pair END -->
+          <!-- Pair START -->
+          <div class="col-lg-4">
+            <div class="row">
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: átlátszó</p>
+                <img src="./images/colorDice/notAvailable.png" alt="color dice" class="img-fluid testCube">
+              </div>
+              <div class="col text-center">
+                <p class="mt-2 mb-0 text-center">PLA: narancssárga</p>
+                <img src="./images/colorDice/notAvailable.png" alt="color dice" class="img-fluid testCube">
+              </div>
+            </div>
+          </div>
+          <!-- Pair END -->
+        </div>
+      </div>
+      <!-- Materials END -->
+
+      
+
+      <!-- More -->
+      <div class="col-sm-12 myCard">
+        <h2 class="textalign-left">Egyéb, választható lehetőségek</h2>
+        <p class="mb-0"><b>support eltávolítása:</b> A support, a modell lebegő részeinek alátámasztására való. Nem minden esetben kell supportot használni a nyomtatás közben, ez a nyomtatandó modelltől függ.</p>
+        <p class="mb-0"><b>layervasalás:</b> a legfelső réteg simábbá tétele. Megnöveli a nyomtatás időtartamát</p>
+        <p class="mb-0"><b>matt alsóréteg:</b> Alapesetben üvegfelületre nyomtatunk ami egy fényes felületet eredményez.</p>
+        <p class="mb-0"><b>megerősített külső réteg:</b> Alapesetben a külső rétegek vastagsága 1.2mm.</p>
+        <p class="mb-0"><b></b></p>
+
+      </div>
+      <!-- More END -->
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <div class="mt-5 pt-3">
+    <footer class="page-footer font-small blue pt-4 mt-5 myFooter">
+      <!-- Footer Links -->
+      <div class="container-fluid text-center text-md-left">
+        <!-- Grid row -->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-6 mt-md-0 mt-3">
+            <!-- Content -->
+            <h5 class="text-uppercase">Twire.hu</h5>
+            <p>A megengedhető 3D nyomtatás</p>
+          </div>
+          <!-- Grid column -->
+          <hr class="clearfix w-100 d-md-none pb-3">
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+
+          </div>
+          <!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-3 mb-md-0 mb-3">
+            <!-- Links -->
+            <h5 class="text-uppercase">Linkek</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="./index.html">Fő lap</a>
+              </li>
+              <li>
+                <a href="./kinalatunk.html">Kínálatunk</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+      <!-- Footer Links -->
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        <a href="https://mdbootstrap.com/"> twire.hu</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Give a Rickroll!</title>
+  <link rel="icon" type="image/ico" href="./images/icon.gif">
+  <link rel="stylesheet" href="style.css">
+  <meta name="keywords" content="rickroll, rickrolling, random link, Rick-roll, Rick-rolling, never ganna give you up,">
+  <meta name="description"
+    content=" Hi, I'm Ricy and I have great news for you. Now you can request random links to Rick Astley's Never Ganna Give You Up! song.">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164332444-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-164332444-1');
+  </script>
+  <!-- Media.net -->
+  <script type="text/javascript">
+    window._mNHandle = window._mNHandle || {};
+    window._mNHandle.queue = window._mNHandle.queue || [];
+    medianet_versionId = "3121199";
+  </script>
+  <script src="https://contextual.media.net/dmedianet.js?cid=8CU17612J" async="async"></script>
+
+  <script src="script.js"></script>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar-->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top " style="background-color: #474b4f!important">
+    <a class="navbar-brand " href="./index.html">
+      <img src="./images/icon.gif" alt="Ricky" style="width:50px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ">
+        <li class="navbar-item active">
+          <a class="nav-link" href="">Give a Rickroll</a>
+        </li>
+        <li class="navbar-item active">
+          <a class="nav-link" href=""></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar END-->
+
+  <div class="container mt-5">
+    <div class="row infoCard">
+      <div class="col-sm-3 myImageHolderLeft">
+        <img class="img-fluid imageCard" src="./images/Ricky.png" alt="Ricky">
+      </div>
+      <div class="col-sm-8">
+        <p class="mt-3 mb-3">
+          Hi, I'm Ricy and I have great news for you. Have you ever wanted to rickroll someone but
+          you are afraid that they remarked the URL link? Don't wory, I had the same problem too, that
+          is why I created Give a Rickroll. Here you can find various links, so it will be impossible
+          to learn each one. You can find simple Youtube links, hidden (embedded) link and even misleading
+          QR codes. Sounds cool? Then start exploring! <br> <br>
+          Happy Rickrolling! - Ricky
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4 col-md-6">
+        <div class="redCard">
+          <div class="redCardHeader">
+            <h1>YouTube</h1>
+            <br>
+            <p>A collection of YouTube links, that contains the rickrolling music. Be aware of that youtube sometimes
+              deletes some of the videos, that contains the music, so if you find a link that is not workink, please
+              request another. After clicking the button, you just have to copy the given link and send it to someone.
+            </p>
+          </div>
+          <div class="row m-0 p-0 pt-3 redCardFooter">
+            <div class="col-sm-12 m-0 text-center p-0">
+              <button type="button" class="btn mb-3 redButton" onclick="newYoutube()"> Get link</button>
+            </div>
+          </div>
+          <div class="row m-0 p-0 redCardFooter">
+            <div class="col-sm-12 text-center">
+              <p id="youtube" style="max-width: 100%; word-wrap: break-word"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="blueCard">
+          <div class="blueCardHeader">
+            <h1>Hidden</h1>
+            <br>
+            <p>A collection of "forwarding URL-s" like something.tk. This link will forward you to the original youtube
+              video. In my opinion, this is the funniest way to rickroll someone as the link isn't contains the word
+              YouTube, therefore the victim won't know that this is a video. Also, we own these links, so they won't be
+              deleted.</p>
+          </div>
+          <div class="row m-0 p-0 pt-3 blueCardFooter">
+            <div class="col-sm-12 m-0 text-center p-0">
+              <button type="button" class="btn mb-3 blueButton" onclick="newIframe()"> Get link</button>
+            </div>
+          </div>
+          <div class="row m-0 p-0 blueCardFooter">
+            <div class="col-sm-12 text-center">
+              <p id="iframe"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="whiteCard">
+          <div class="whiteCardHeader">
+            <h1>QR code</h1>
+            <br>
+            <p>If you want to rickroll someonde in a form of a QR code, then you are in the right place. All QR codes
+              were generated by us and they point to our hidden links (explained before) so they will work for an
+              eternity. You can copy the URL of the image and send it to someone or you can download it by right
+              clicking on it. </p>
+          </div>
+          <div class="row m-0 p-0 pt-3 whiteCardFooter">
+            <div class="col-sm-12 m-0 text-center p-0">
+              <button type="button" class="btn mb-3 blueButton" onclick="newQrcode()"> click me</button>
+            </div>
+          </div>
+          <div class="row m-0 p-0 whiteCardFooter">
+            <div class="col-sm-12 text-center">
+              <img src="images/placeholder.png" id="qrcode" alt="oops, something went wrong :(" class="myImage mb-3"
+                style="max-width: 100%; border-radius: .50rem!important;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 mt-5">
+        <div class="yellowCard">
+          <div class="yellowCardHeader">
+            <h1>Consider Supporting</h1>
+            <br>
+            <p>
+              If you like this website, please Consider supporting. <br>
+              This is a very simple website, which I made in my free time as a practise. My goal is the price of the domain which is 15$. After that I will remove this element. <br> 
+              Thank you, Gyufi
+            </p>
+          </div>
+          <div class="row m-0 p-0 pt-2 pb-1 yellowCardFooter">
+            <div class="col-sm-12 m-0 text-center p-0">
+              <a href="https://paypal.me/givearickroll" style="color: white;" target="_blank">
+                Donate by: <img src="./images/paypalcircle.png" alt="Donate" class="img-fluid" style="max-width: 60px; ">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sml-12 mt-5 ml-3 mr-3">
+        <div class="greyCard">
+          <div class="greyCardHeader">
+            <h1>What is rickrolling?</h1>
+            <br>
+            <p>
+              Rickrolling, alternatively rick-rolling, is a prank and an Internet meme involving an unexpected
+              appearance of the music video for the 1987 Rick Astley song "Never Gonna Give You Up". The meme is a type
+              of bait and switch using a disguised hyperlink that leads to the music video. The victims, believing that
+              they are accessing some unrelated material, are said to have been "rickrolled". The meme has also extended
+              to using the song's lyrics in unexpected places. <br><br>
+              Rickrolling started to appear in more mainstream sources during 2008, with an SurveyUSA April 2008 poll
+              estimating that at least 18 million American adults had been rickrolled. One of the first public events
+              involved the Church of Scientology which had been aggressively trying to censor videos critical of the
+              church. The Internet group Anonymous as part of their Project Chanology to challenge this censoring,
+              protested at the Church's various headquarters across the globe by chanting the song, among other
+              activities. A number of collegiate basketball games in March 2008 had people dressing up as Astley from
+              the video and lip-syncing to the music as a prank before the start of the game. YouTube's 2008 April Fools
+              joke made featured video hyperlinks on the site's home page end up on the music video. In April 2008, the
+              baseball team New York Mets had asked fans on the Internet for what they should use for one of their
+              late-game rally songs in April 2008, with "Never Gonna Give You Up" receiving a massive number of votes
+              driven by websites like 4chan. At the 2008 MTV Europe Music Awards, an online campaign led to Astley being
+              named the "Best Act Ever" despite not being on the original shortlist of nominees, effectively rickrolling
+              the awards.
+            </p>
+            <p style="text-align: right;">-wikipedia</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="greyCard">
+          <div class="greyCardHeader">
+            <h1>Like what we are doing?</h1>
+            <br>
+            <p>Cool! Then please consider sharing our website. It would really help us out and we would be extreamly
+              grateful.</p>
+          </div>
+          <div class="row m-0 p-2 greyCardFooter">
+            <div class="col-sm-12  text-center">
+              <a href="http://www.facebook.com/sharer.php?u=https://givearickroll.com" target="_blank">
+                <img src="./images/facebook.png" alt="Facebook" class="img-fluid ml-1 mr-1" style="max-height: 30pt;">
+              </a>
+              <a href="https://twitter.com/share?url=https://givearickroll.com&amp;text=Give%20a%20Rickroll! - random rickroll links&amp;hashtags=rickroll"
+                target="_blank">
+                <img src="./images/twitter.png" alt="Twitter" class="img-fluid ml-1 mr-1" style="max-height: 30pt;">
+              </a>
+              <a href="http://reddit.com/submit?url=https://givearickroll.com&amp;title=Give a Rickroll! - random rickroll links"
+                target="_blank">
+                <img src="./images/reddit.png" alt="Reddit" class="img-fluid ml-1 mr-1" style="max-height: 30pt;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12">
+        <div class="greyCard">
+          <div class="greyCardHeader">
+            <h1>Check out other cool projects! - <a href="http://newpestapps.tk/" target="_blank">New Pest Apps</a>
+            </h1>
+            <br>
+            <p>Here, you can find many useful and entertainment applications from funny soundboards, like <a
+                href="https://play.google.com/store/apps/details?id=com.newpestapps.Portal_Glados_Soundboard"
+                style="color: rgba(200,200,200,1)" target="_blank">GLaDOS soundboard</a> to exercise apps.
+              Check it out for more cool content!
+            </p>
+            <div class="text-center">
+              <button type="button" class="btn greyButton">
+                <a href="http://newpestapps.tk/" style="color: rgba(200,200,200,1);" target="_blank">New Pest Apps</a>
+              </button>
+            </div>
+
+          </div>
+          <!-- <div class="row m-0 p-2 greyCardFooter">
+            <div class="col-sm-12  text-center"> 
+                    asd
+            </div>         
+          </div> -->
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="page-footer font-small elegant-color-dark mt-5"
+    style="background-color: #474b4f!important; color: grey;">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright: givearickroll.com
+      <a href="https://givearickroll.com" style="color:white">- and the rickrolling is rolling!</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
