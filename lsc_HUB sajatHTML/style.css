@@ -1,0 +1,10 @@
+@font-face{
+	font-family: foco;
+	src:url(pictures\drawable\FOCO.TTF);
+	font-weight: bold;
+}
+
+a:link {
+	color: #44bd32;
+}
+
